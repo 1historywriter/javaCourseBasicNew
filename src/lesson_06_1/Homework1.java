@@ -1,7 +1,7 @@
 package lesson_06_1;
 
 import java.util.Arrays;
-import java.util.Locpublic class StringManipulation {
+public class StringManipulation {
 public static void main(String[] args) {
     String myString = new String("I study Basic Java!");
 

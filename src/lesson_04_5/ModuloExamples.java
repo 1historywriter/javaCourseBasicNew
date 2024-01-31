@@ -1,4 +1,4 @@
-package Lesson4_5;
+package lesson_04_5;
 
 public class ModuloExamples {
         public static void main(String[] args) {

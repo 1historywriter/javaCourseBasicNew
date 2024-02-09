@@ -2,8 +2,8 @@ package lesson_06_2;
 
 import java.util.Scanner;
 
-public class CombineWords {
-        public static void main(String[] args) {
+public class Homework2 {
+    public static void main(String[] args) {
             // Создаем объект Scanner для ввода данных
             Scanner scanner = new Scanner(System.in);
 
@@ -37,5 +37,3 @@ public class CombineWords {
             return half1 + half2;
         }
     }
-
-}

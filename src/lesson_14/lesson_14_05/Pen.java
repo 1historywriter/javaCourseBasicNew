@@ -20,7 +20,7 @@ public class Pen {
     @Override
     public String toString() {
         return "Pen{" +
-                "color=" + color + '\‘‘ +
+      //          "color=" + color + '\‘‘ +
                 "type=" + type +
                 '}';
     }

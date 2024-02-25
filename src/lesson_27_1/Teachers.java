@@ -14,14 +14,5 @@ public class Teachers {
         public void setPersonalId(String personalId) { this.personalId = personalId; }
         public  String getName(){ return name; }
         public Courses getCourses(){ return courses; }
-}
-@Override
-public String toString() {
-    return "Teachers{" +
-            "personalCode='" + personalId + '\'' +
-            ", name='" + name + '\'' +
-            ", courses=" + courses +
-            '}';
-}
-}
+  }
 

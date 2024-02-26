@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class Students {
+public class Homework_01_01 {
 
     public static void main(String[] args) {
 

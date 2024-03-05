@@ -1,0 +1,220 @@
+Index: src/lesson_19/MobilePhone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_19;\r\n\r\npublic class MobilePhone {\r\n    private int imeiid;\r\n\r\n    private String name;\r\n    private String group;\r\n    private String pin;\r\n\r\n    public MobilePhone(int imeiid) {\r\n        this.imeiid = imeiid;\r\n        this.name = name;\r\n        this.group = group;\r\n        this.pin = pin;\r\n    }\r\n    public int getImeiid() {return imeiid; }\r\n\r\n    public String getName(){ return name; }\r\n\r\n    public String getGroup () {return group; }\r\n\r\n    public void setGroup(String group) { this.group = group; }\r\n\r\n    public void changePin(String newPin){\r\n        this.pin = newPin;\r\n    }\r\n\r\n    public void printPhoneData(){\r\n        System.out.println(\"imeiid: \");\r\n        System.out.println(\"name\");\r\n    }\r\n}
+===================================================================
+diff --git a/src/lesson_19/MobilePhone.java b/src/lesson_19/MobilePhone.java
+--- a/src/lesson_19/MobilePhone.java	
++++ b/src/lesson_19/MobilePhone.java	
+@@ -1,19 +1,19 @@
+ package lesson_19;
+ 
+ public class MobilePhone {
+-    private int imeiid;
++    private int imei;
+ 
+     private String name;
+     private String group;
+     private String pin;
+ 
+-    public MobilePhone(int imeiid) {
+-        this.imeiid = imeiid;
++    public MobilePhone(int imei) {
++        this.imei = imei;
+         this.name = name;
+         this.group = group;
+         this.pin = pin;
+     }
+-    public int getImeiid() {return imeiid; }
++    public int getimei() {return imei; }
+ 
+     public String getName(){ return name; }
+ 
+@@ -26,7 +26,7 @@
+     }
+ 
+     public void printPhoneData(){
+-        System.out.println("imeiid: ");
++        System.out.println("imei: ");
+         System.out.println("name");
+     }
+ }
+\ No newline at end of file
+Index: src/lesson_12/StudyWork/Elevator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_12.StudyWork;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Elevator {\r\n    public static void main(String[] args) {\r\n        Scanner scanner = new Scanner();\r\n        System.out.println(\"В видите общее количество этажей\");\r\n        int totalFloors = scanner.nextInt();\r\n        scanner.close();\r\n\r\n\r\n    }\r\n\r\n    public int calculateIterations(int buildingHeight) {\r\n        return buildingHeight;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/lesson_12/StudyWork/Elevator.java b/src/lesson_12/StudyWork/Elevator.java
+--- a/src/lesson_12/StudyWork/Elevator.java	
++++ b/src/lesson_12/StudyWork/Elevator.java	
+@@ -1,18 +1,18 @@
+-package lesson_12.StudyWork;
+-
+-import java.util.Scanner;
+-
+-public class Elevator {
+-    public static void main(String[] args) {
+-        Scanner scanner = new Scanner();
+-        System.out.println("В видите общее количество этажей");
+-        int totalFloors = scanner.nextInt();
+-        scanner.close();
+-
+-
+-    }
+-
+-    public int calculateIterations(int buildingHeight) {
+-        return buildingHeight;
+-    }
+-}
++//package lesson_12.StudyWork;
++//
++//import java.util.Scanner;
++//
++//public class Elevator {
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner();
++//        System.out.println("В видите общее количество этажей");
++//        int totalFloors = scanner.nextInt();
++//        scanner.close();
++//
++//
++//    }
++//
++//    public int calculateIterations(int buildingHeight) {
++//        return buildingHeight;
++//    }
++//}
+Index: src/lesson_12/StudyWork/Text.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_12.StudyWork;\r\n\r\nimport static java.awt.SystemColor.text;\r\n\r\npublic class Text {\r\n    public static String SpecialCharacters(\"(\", \")\", \"@\");\r\n    for (int i = 0; i<text.lenght(); i++) {\r\n        char currentChar = text.charAt (i)\r\n\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/lesson_12/StudyWork/Text.java b/src/lesson_12/StudyWork/Text.java
+--- a/src/lesson_12/StudyWork/Text.java	
++++ b/src/lesson_12/StudyWork/Text.java	
+@@ -1,12 +1,12 @@
+-package lesson_12.StudyWork;
+-
+-import static java.awt.SystemColor.text;
+-
+-public class Text {
+-    public static String SpecialCharacters("(", ")", "@");
+-    for (int i = 0; i<text.lenght(); i++) {
+-        char currentChar = text.charAt (i)
+-
+-    }
+-
+-}
++//package lesson_12.StudyWork;
++//
++//import static java.awt.SystemColor.text;
++//
++//public class Text {
++// //   public static String SpecialCharacters("(", ")", "@");
++//   // for (int i = 0; i<text.lenght(); i++) {
++//        char currentChar = text.charAt (i)
++//
++//    }
++//
++//}
+Index: src/lesson_11/Example3Cat.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_11;\r\n\r\nimport scanner.UserInput;\r\n\r\npublic class Example3Cat {\r\n    public static <Cat> void main(String[] args) {\r\n        UserInput userInput = new UserInput();\r\n        boolean condition = true;\r\n\r\n        while (condition) {\r\n            String catName = userInput.inputText(\"Please enter cat name: \");\r\n            String catBreed = userInput.inputText(\"Please enter cat breed: \");\r\n\r\n            if (catName.isEmpty() || catBreed.equals(\"\")) {\r\n                condition = false;\r\n\r\n            } else {\r\n                Cat cat = new Cat(catName,catBreed);\r\n                System.out.println(cat);\r\n            }\r\n        }\r\n\r\n        System.out.println(\"Cycle of entering about cat´s is done!\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/lesson_11/Example3Cat.java b/src/lesson_11/Example3Cat.java
+--- a/src/lesson_11/Example3Cat.java	
++++ b/src/lesson_11/Example3Cat.java	
+@@ -1,25 +1,25 @@
+-package lesson_11;
+-
+-import scanner.UserInput;
+-
+-public class Example3Cat {
+-    public static <Cat> void main(String[] args) {
+-        UserInput userInput = new UserInput();
+-        boolean condition = true;
+-
+-        while (condition) {
+-            String catName = userInput.inputText("Please enter cat name: ");
+-            String catBreed = userInput.inputText("Please enter cat breed: ");
+-
+-            if (catName.isEmpty() || catBreed.equals("")) {
+-                condition = false;
+-
+-            } else {
+-                Cat cat = new Cat(catName,catBreed);
+-                System.out.println(cat);
+-            }
+-        }
+-
+-        System.out.println("Cycle of entering about cat´s is done!");
+-    }
+-}
++//package lesson_11;
++//
++//import scanner.UserInput;
++//
++//public class Example3Cat {
++//    public static <Cat> void main(String[] args) {
++//        UserInput userInput = new UserInput();
++//        boolean condition = true;
++//
++//        while (condition) {
++//            String catName = userInput.inputText("Please enter cat name: ");
++//            String catBreed = userInput.inputText("Please enter cat breed: ");
++//
++//            if (catName.isEmpty() || catBreed.equals("")) {
++//                condition = false;
++//
++//            } else {
++//                Cat cat = new Cat(catName,catBreed);
++//                System.out.println(cat);
++//            }
++//        }
++//
++//        System.out.println("Cycle of entering about cat´s is done!");
++//    }
++//}
+Index: src/lesson_12/StudyWork/ElevatorDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_12.StudyWork;\r\n\r\npublic class ElevatorDemo {\r\n\r\n    public void main(String[] args) {\r\n        // Elevator elevator = new Elevator(';' (7, 4);\r\n        int buildingHeight = 21;\r\n        Elevator elevator = new Elevator();\r\n        int iterations = elevator.calculateIterations(buildingHeight);\r\n        System.out.println(\"Количество итераций для подъема на крышу:\" + iterations);\r\n\r\n\r\n\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/lesson_12/StudyWork/ElevatorDemo.java b/src/lesson_12/StudyWork/ElevatorDemo.java
+--- a/src/lesson_12/StudyWork/ElevatorDemo.java	
++++ b/src/lesson_12/StudyWork/ElevatorDemo.java	
+@@ -1,16 +1,16 @@
+-package lesson_12.StudyWork;
+-
+-public class ElevatorDemo {
+-
+-    public void main(String[] args) {
+-        // Elevator elevator = new Elevator(';' (7, 4);
+-        int buildingHeight = 21;
+-        Elevator elevator = new Elevator();
+-        int iterations = elevator.calculateIterations(buildingHeight);
+-        System.out.println("Количество итераций для подъема на крышу:" + iterations);
+-
+-
+-
+-
+-    }
+-}
++//package lesson_12.StudyWork;
++//
++//public class ElevatorDemo {
++//
++//    public void main(String[] args) {
++//        // Elevator elevator = new Elevator(';' (7, 4);
++//        int buildingHeight = 21;
++//        Elevator elevator = new Elevator();
++//        int iterations = elevator.calculateIterations(buildingHeight);
++//        System.out.println("Количество итераций для подъема на крышу:" + iterations);
++//
++//
++//
++//
++//    }
++//}

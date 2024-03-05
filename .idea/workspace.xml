@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="434a32d0-55af-49ab-a43c-a93e5a07743d" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/lesson_35/lessoncode/FinalExample/VariableFinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_35/lessoncode/FinalExample/VariableFinalExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/DoubleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/IntegerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/NumericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/OnlyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/FigureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultation_11/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultation_11/Library.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bPOB5YsHRt2aOUM3aIOf0b9rNm" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Elevator.executor": "Run",
+    "Application.FigureDemo.executor": "Run",
+    "Application.Homework2.executor": "Run",
+    "Application.LibraryDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NumbersInBlock.executor": "Run",
+    "Application.VariableFinalExample2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.FigureDemo">
+    <configuration name="Elevator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_12.StudyWork.Elevator" />
+      <module name="javaCourseBasicNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12.StudyWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FigureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_36.practice.Task2.FigureDemo" />
+      <module name="javaCourseBasicNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_36.practice.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_30.LibraryDemo" />
+      <module name="javaCourseBasicNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersInBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_11.homework_02.NumbersInBlock" />
+      <module name="javaCourseBasicNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_11.homework_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableFinalExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_35.lessoncode.FinalExample.VariableFinalExample2" />
+      <module name="javaCourseBasicNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_35.lessoncode.FinalExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FigureDemo" />
+        <item itemvalue="Application.VariableFinalExample2" />
+        <item itemvalue="Application.LibraryDemo" />
+        <item itemvalue="Application.NumbersInBlock" />
+        <item itemvalue="Application.Elevator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="434a32d0-55af-49ab-a43c-a93e5a07743d" name="Changes" comment="" />
+      <created>1706113116832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706113116832</updated>
+    </task>
+    <task id="LOCAL-00001" summary="done">
+      <option name="closed" value="true" />
+      <created>1707471842524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707471842524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+</project>

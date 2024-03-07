@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="434a32d0-55af-49ab-a43c-a93e5a07743d" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/lesson_35/lessoncode/FinalExample/VariableFinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_35/lessoncode/FinalExample/VariableFinalExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/DoubleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/IntegerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/NumericDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task1/OnlyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/FigureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_36/practice/Task2/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultation_11/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultation_11/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/CarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/CarInnerClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/OuterClaas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CarDemo.executor": "Run",
     "Application.Elevator.executor": "Run",
     "Application.FigureDemo.executor": "Run",
     "Application.Homework2.executor": "Run",
@@ -62,13 +58,13 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FigureDemo">
-    <configuration name="Elevator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_12.StudyWork.Elevator" />
+  <component name="RunManager" selected="Application.CarDemo">
+    <configuration name="CarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_38_01.CarDemo" />
       <module name="javaCourseBasicNew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_12.StudyWork.*" />
+          <option name="PATTERN" value="lesson_38_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarDemo" />
         <item itemvalue="Application.FigureDemo" />
         <item itemvalue="Application.VariableFinalExample2" />
         <item itemvalue="Application.LibraryDemo" />
         <item itemvalue="Application.NumbersInBlock" />
-        <item itemvalue="Application.Elevator" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707471842524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done">
+      <option name="closed" value="true" />
+      <created>1709639798550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709639798550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="done">
+      <option name="closed" value="true" />
+      <created>1709639830198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709639830198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

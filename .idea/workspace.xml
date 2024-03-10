@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="434a32d0-55af-49ab-a43c-a93e5a07743d" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/CarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/CarInnerClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_38_01/OuterClaas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/CarAppDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/object/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/service/CarComparatorPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/service/CarComparatorRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/service/CarComparatorYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_34/miniproject/service/CarSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bPOB5YsHRt2aOUM3aIOf0b9rNm" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -41,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CarDemo.executor": "Run",
-    "Application.Elevator.executor": "Run",
-    "Application.FigureDemo.executor": "Run",
-    "Application.Homework2.executor": "Run",
-    "Application.LibraryDemo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NumbersInBlock.executor": "Run",
-    "Application.VariableFinalExample2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CarDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Elevator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FigureDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersInBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableFinalExample2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CarDemo">
     <configuration name="CarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_38_01.CarDemo" />
@@ -137,8 +138,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
